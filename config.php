@@ -9,7 +9,7 @@ if(ENVIRONMENT == 'development'){
   $config['dbname'] = 'mvc';
   $config['host'] = 'localhost';
   $config['dbuser'] = 'root';
-  $config['dbpass'] = '';
+  $config['dbpass'] = 'root';
 } else{
   define("BASE_URL", "http://localhost/mvc/");
   $config['dbname'] = 'mvc';
