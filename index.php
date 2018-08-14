@@ -14,6 +14,6 @@ spl_autoload_register(function($class){
   }
 });
 
-//Instanciando o core, o núcleo que é responsável por pegar url e processá-la para obter controllers, actions e params.
+//Instanciando o core, o núcleo que é responsável por pegar a url e processá-la para obter controllers, actions e params.
 $core = new Core();
 $core->run();
